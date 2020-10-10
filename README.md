@@ -1,5 +1,7 @@
 # Interns Spark React Project - 1 LeaderBoard
 
+![alt text](https://github.com/Nabeel110/Interns-Spark-Leaderboard/blob/master/src/components/images/screenshot.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
