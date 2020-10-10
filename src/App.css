@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-image: url("./components/images/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 500px;
+  height: 500px; */
 }
 
 .App-logo {
@@ -34,5 +39,24 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.leaderboardWrap {
+  background-color: rgb(66, 64, 64, 0.9);
+  /* margin: 0 auto; */
+  color: white;
+  /* margin: auto 0; */
+  width: 710px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-top: 10px;
+  border-radius: 14%;
+}
+
+@media (max-width: 768px) {
+  .leaderboardWrap {
+    width: 500px;
   }
 }
